@@ -1,0 +1,19 @@
+#ec-cube
+data/install.php #2.4
+data/config/config.php #2.11~
+data/logs/*
+data/Smarty/templates_c/**/*
+data/cache/*
+html/upload/**/*
+html/install/*
+var/cache/prod/twig
+var/cache/prod/pools
+var/cache/prod/
+!/var/cache/prod/*map
+!/var/cache/prod/*php
+!/var/cache/prod/*meta
+var/sessions/
+var/log/
+!.gitkeep
+.env
+sftp-config.json
