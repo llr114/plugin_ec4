@@ -213,6 +213,7 @@ file that was distributed with this source code.
 {% endblock %}
 
 {% block main %}
+    {{ include('@testplugin/test_plugin.twig', ignore_missing=true) }}
     <div class="ec-productRole">
         <div class="ec-grid2">
             <div class="ec-grid2__cell">
